@@ -12,6 +12,6 @@ module.exports = function (string) {
     if (typeof string === 'undefined' || string === null) {
         return '';
     }
-    var breakTag = (is_xhtml || typeof is_xhtml === 'undefined') ? '<br />' : '<br>';
+    var breakTag = '<br />';
     return (string + '').replace(/([^>\r\n]?)(\r\n|\n\r|\r|\n)/g, '$1' + breakTag + '$2');
 };
