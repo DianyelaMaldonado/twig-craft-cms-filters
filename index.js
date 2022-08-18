@@ -1,5 +1,3 @@
-import Twig from 'twig';
-
 /**
  * Adds all the filters to the given Twig intstance.
  *
