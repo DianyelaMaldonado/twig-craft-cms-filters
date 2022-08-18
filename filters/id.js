@@ -6,8 +6,6 @@
  *
  * @return {string}
  *   The cleaned ID.
- *
- * @see \Drupal\Component\Utility\Html::getId()
  */
 module.exports = function (id) {
   // Ensure a valid string is being passed.

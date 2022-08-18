@@ -1,3 +1,29 @@
 module.exports = {
     id: require('./id'), // eslint-disable-line camelcase
+    camel: require('./camel'), // eslint-disable-line camelcase
+    camelToHypens: require('./camel_to_hypens'), // eslint-disable-line camelcase
+    capitalize: require('./capitalize'), // eslint-disable-line camelcase
+    date: require('./date'), // eslint-disable-line camelcase
+    first: require('./first'), // eslint-disable-line camelcase
+    join: require('./join'), // eslint-disable-line camelcase
+    json_decode: require('./json_decode'), // eslint-disable-line camelcase
+    json_encode: require('./json_encode'), // eslint-disable-line camelcase
+    last: require('./last'), // eslint-disable-line camelcase
+    length: require('./length'), // eslint-disable-line camelcase
+    lower: require('./lower'), // eslint-disable-line camelcase
+    merge: require('./dummy_passthrough'), // eslint-disable-line camelcase
+    nl2br: require('./nl2br'), // eslint-disable-line camelcase
+    replace: require('./dummy_passthrough'), // eslint-disable-line camelcase
+    raw: require('./raw'), // eslint-disable-line camelcase
+    slice: require('./dummy_passthrough'), // eslint-disable-line camelcase
+    split: require('./dummy_passthrough'), // eslint-disable-line camelcase
+    strip_tags: require('./raw'), // eslint-disable-line camelcase
+    t: require('./dummy_passthrough'), // eslint-disable-line camelcase
+    time: require('./date'), // eslint-disable-line camelcase
+    timestamp: require('./date'), // eslint-disable-line camelcase
+    trim: require('./trim'), // eslint-disable-line camelcase
+    upper: require('./upper'), // eslint-disable-line camelcase
+    url_encode: require('./url_encode'), // eslint-disable-line camelcase
+    with: require('./with'), // eslint-disable-line camelcase
+    without: require('./without'), // eslint-disable-line camelcase
 }
