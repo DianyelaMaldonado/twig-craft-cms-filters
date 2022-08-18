@@ -1,6 +1,6 @@
 module.exports = function (value) {
     // Ensure a valid string is being passed.
-    if (!string) {
+    if (!value) {
         return "";
     }
     return value.replace(/<\/?[^>]+(>|$)/g, "");
