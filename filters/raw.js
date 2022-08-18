@@ -3,5 +3,5 @@ module.exports = function (value) {
     if (!value) {
         return "";
     }
-    return value.replace(/<\/?[^>]+(>|$)/g, "");
+    return value;
 }
