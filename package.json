@@ -1,6 +1,6 @@
 {
   "name": "twig-craft-cms-filters",
-  "version": "2.1.0",
+  "version": "2.2.0",
   "description": "Craft CMS Twig filters, implemented for Twig.js",
   "main": "index.js",
   "files": [
